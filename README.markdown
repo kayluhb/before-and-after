@@ -9,4 +9,4 @@ jQuery UI slider
 
 
 Call it with  
-`<div class="before-after" data-after="<img2 src>"><img src="<img1 src>" alt="before" /></div>
+``<div class="before-after" data-after="<img2 src>"><img src="<img1 src>" alt="before" /></div>
