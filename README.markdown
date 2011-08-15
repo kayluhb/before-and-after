@@ -1,4 +1,4 @@
-# Before and After
+# jQuery Before and After Plugin
 
 A jQuery plugin that adds a before and after swiping effect for images.  
 
@@ -8,5 +8,19 @@ jQuery
 jQuery UI slider  
 
 
-Call it with  
-``<div class="before-after" data-after="<img2 src>"><img src="<img1 src>" alt="before" /></div>
+Use
+---
+
+    <div class="before-after" data-after="<img2 src>"><img src="<img1 src>" alt="before" /></div>
+
+
+Browser Support:
+----------------
+
+I expect it to work in all modern browsers.  If you encounter any issues, please let me know.
+    
+License:
+--------
+
+This plugin was originally authored by Caleb Brown (twitter.com/kayluhb), and is released under an MIT License (do what you want with it).  
+
