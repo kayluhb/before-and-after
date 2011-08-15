@@ -11,7 +11,7 @@
             $el.find('img').addClass('ba-before');
             $after = $el.find('.ba-after');
             $after.css({  backgroundImage:'url(' + $el.data('after') + ')', width:0 });
-            $el.find('.ba-slide').slider({ max:max, min:0, slide:onSlide, value:max * .5, change:onSlide });
+            $el.find('.ba-slide').slider({ max:max, min:0, slide:onSlide, value:max * 0.5, change:onSlide });
             img = new Image();
             img.onload = onImgLoad;
             img.src = $el.data('after'); 
@@ -21,7 +21,7 @@
             $el.find('img').show();
             $el.find('.ba-canvas').delay(500).fadeIn('normal');
             $el.find('.ba-slide-wrap').delay(1200).animate({ bottom:0 });
-            $after.delay(800).animate({ width:max * .5 });
+            $after.delay(800).animate({ width:max * 0.5 });
         }
         function onAfterClick(e) {
             var offset = $(this).offset();
