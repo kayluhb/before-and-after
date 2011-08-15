@@ -3,10 +3,10 @@
 A jQuery plugin that adds a before and after swiping effect for images.  
 
 Dependencies
+------------
 
 jQuery  
-jQuery UI slider  
-
+jQuery UI slider - a version of this is included in the src dir  
 
 Use
 ---
