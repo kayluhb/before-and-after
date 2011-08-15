@@ -10,8 +10,11 @@ jQuery UI slider - a version of this is included in the src dir
 
 Use
 ---
-
+    markup:
     <div class="before-after" data-after="<img2 src>"><img src="<img1 src>" alt="before" /></div>
+    
+    call the plugin:
+    $('.before-after').beforeafter();
 
 
 Browser Support:

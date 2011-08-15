@@ -1,4 +1,6 @@
 // A plugin for before/after images
+// This plugin was originally authored by Caleb Brown (twitter.com/kayluhb), and is released under an MIT License (do what you want with it).
+
 // <div class="before-after" data-after="<img2 src>"><img src="<img1 src>" alt="before" /></div>
 (function($) {
     var BeforeAfter = function(el, opts) {
