@@ -15,8 +15,19 @@
     <h1>Before and After</h1>
     <div id="container">
         <div class="before-after" data-after="images/img2.jpg"><img src="images/img1.jpg" alt="before" /></div>
-    </div><br/>
-    <code>$('.before-after').beforeafter();</code>
+    </div>
+    <p>
+    markup:<br/>
+    <code>
+      &lt;div class="before-after" data-after="&lt;img2-src>">&lt;img src="&lt;img1-src>" alt="before" />&lt;/div>
+    </code>
+    </p>
+    <p>
+    js call<br/>
+    <code>
+      $('.before-after').beforeafter();
+    </code>
+    </p>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script>!window.jQuery && document.write('<script src="javascripts/libs/jquery-1.6.2.min.js"><\/script>')</script>
     <script src="javascripts/libs/jquery-ui-1.8.15.custom.min.js"></script>
